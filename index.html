@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body-Fitness</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <header>
+
+        <section id="header-with-hero-section">
+            <div id="header-nav">
+                <h2>Body Fitness</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+                
+                <div id="hamburger-menu">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div> 
+            
+            <div id="hero">
+                <div id="hero-text">
+                    <div>
+                        <h3><span>Shape</span> your body according to <span>body rules</span> and Stay Fit</h3>
+                        <p>Browse and select fitness plan according to your need. We have huge collection of fitness plans from renowned badge winner Trainer.</p>
+                    </div>
+                    <div id="hero-buttons">
+                        <button class="default-button active">Join Us</button>
+                        <button class="default-button">Download App</button>
+                    </div>                    
+                </div>
+                <div id="hero-banner">
+                    <img src="assets/images/Images2.png" alt="hero-banner-image">
+                    <div id="workout-count">
+                        <div id="video-icon"></div>
+                        <div>
+                            <h3>250+</h3>
+                            <p>Tutorial videos</p>
+                        </div>
+                    </div>
+                    <div id="tutorial-count">
+                        <h3>576+</h3>
+                        <p>Free workout videos</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </header>
+
+    <main>
+
+        <section id="habit-section">
+            <div id="habit-header">
+                <h3>Change your habit!</h3>
+                <p>Do not waste your time and make some effort to become healthy. Take a tour with us and choose the best offer from us.</p>
+            </div>
+            <div id="habit-content">
+                <div>
+                    <img src="assets/images/image3.png" alt="move">
+                    <h4>Movement</h4>
+                    <p>Move your body parts according to instruction</p>
+                </div>
+                <div>
+                    <img src="assets/images/image2.png" alt="timely">
+                    <h4>Time</h4>
+                    <p>Keep practicing timely</p>
+                </div>
+                <div>
+                    <img src="assets/images/image4.png" alt="practice">
+                    <h4>Practice</h4>
+                    <p>Nothing can be achieved without practice</p>
+                </div>
+                <div>
+                    <img src="assets/images/image5.png" alt="loose-weight">
+                    <h4>Weight Loss</h4>
+                    <p>Loose extra weight and get a healthy body</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="extra-run">
+                <div>
+                    <h3>Run an Extra Mile easily</h3>
+                    <p>One step at a time. To reach your goal, to make yourself fit, run an extra mile everyday. We will help you to achieve this seemingly impossible task.</p>
+                    <button class="default-button active">Join Now</button>
+                </div>
+                <div>
+                </div>
+            </div>                
+        </section>
+
+        <section id="training">
+            <div>
+                <img src="assets/images/exercise1.jpg" alt="exercise-1">
+                <div id="filterbg"></div>
+                <p>Flex your Leg</p>
+            </div>
+            <div>
+                <img src="assets/images/exercise2.png" alt="exercise-2">
+                <div id="filterbg"></div>
+                <p>Loose some extra fat</p>
+            </div>
+            <div>
+                <img src="assets/images/exercise3.png" alt="exercise-3">
+                <div id="filterbg"></div>
+                <p>Build your stamina</p>
+            </div>
+            <div>
+                <img src="assets/images/exercise4.png" alt="exercise-4">
+                <div id="filterbg"></div>
+                <p>Free hand exercise</p>
+            </div>
+            <div>
+                <img src="assets/images/exercise5.jpg" alt="exercise-5">
+                <div id="filterbg"></div>
+                <p>Get some abs</p>
+            </div>
+            <div>
+                <img src="assets/images/exercise6.jpg" alt="exercise-6">
+                <div id="filterbg"></div>
+                <p>Make your abs looks cool</p>
+            </div>
+        </section>
+
+        <section id="calculator">
+            <div id="bmihead">
+                <h3 class="default-header">BMI Calculator</h3>
+                <p class="default-para">Calculate your Height and Weight to see how much you are fit!</p>
+            </div>
+            <div id="calculatordiv">
+                <div>
+                    <h4 class="section-header">BMI Calculator Chart</h4>
+                    <table>
+                        <thead>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>22.1-25</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.1-29</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30-Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h4 class="section-header">Calculate your BMI</h4>
+                    <p class="section-para">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym</p>
+                    <form action="" id="bmiForm">                        
+                        <input type="number" name="height" id="height" placeholder="Height cm">
+                        <input type="number" name="weight" id="weight" placeholder="Weight kg">
+                        <input type="number" name="age" id="age" placeholder="Age">
+                        <select name="gender" id="gender">
+                            <option value="">Gender</option>
+                            <option value="m">Male</option>
+                            <option value="f">Female</option>
+                        </select>
+                        <select name="factor" id="factor">
+                            <option value="">Select a Factor</option>
+                            <option value="i">Inhouse</option>
+                            <option value="o">Outside</option>
+                        </select>  
+                        <button type="submit" class="default-button active">Calculate</button>                     
+                    </form>
+                </div>
+            </div>            
+        </section>
+
+        <section id="team">
+            <div>
+                <h3 class="default-header">Meet our team</h3>
+                <p class="default-para">Our special trainers in our team specially selected only for you.</p>
+            </div>
+            <div>
+                <div>
+                    <img src="assets/images/trainer1.png" alt="">
+                    <div>
+                        <h4>Jerome Bell</h4>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/trainer2.png" alt="">
+                    <div>
+                        <h4>Cameron Williamson</h4>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/trainer3.png" alt="">
+                    <div>
+                        <h4>Darrell Steward</h4>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/trainer4.png" alt="">
+                    <div>
+                        <h4>Dianne Russell</h4>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/trainer5.png" alt="">
+                    <div>
+                        <h4>Cody Fisher</h4>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/trainer6.png" alt="">
+                    <div>
+                        <h4>Theresa Webb</h4>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div>
+                <h2 class="default-header">Pricing</h2>
+            </div>
+            <div id="pricingdiv">
+                <div>
+                    <h3 class="section-header">Basic-Plan</h3>
+                    <div class="pricedetails">
+                        <p>20 Workout Videos</p>
+                        <p>5 Tutorial</p>
+                        <p>Weekly 2 Hours Instruction</p>
+                    </div>                    
+                    <button class="default-button">Secure It</button>
+                </div>
+                <div>
+                    <h3>Premium Plan</h3>
+                    <div class="pricedetails">
+                        <p>150 Workout Videos</p>
+                        <p>80 Tutorial Videos</p>
+                        <p>30 Minutes Consultation</p>
+                        <p>Weekly 10 Hours Instruction</p>
+                    </div>
+                    <button class="default-button active">Secure It</button>
+                </div>
+                <div>
+                    <h3>Exclusive Plan</h3>
+                    <div class="pricedetails">
+                        <p>Unlimited Workout Videos</p>
+                        <p>Unlimited Tutorial Videos</p>
+                        <p>Any Time Consultation</p>
+                        <p>Weekly 21 Hours Instruction</p>
+                        <p>5 recommendation Quote</p>
+                    </div>
+                    <button class="default-button active">Secure It</button>
+                </div>
+
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <section>
+            <div id="footer-header">
+                <h2>Body Fitness</h2>
+                <p>We believe fitness should be accessible to everyone,  everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+            </div>
+            <div class="footer-link">
+                <div>
+                    <h4>At a glance</h4>
+                    <ul>
+                        <li>Service</li>
+                        <li>Contact</li>
+                        <li>Fitness</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4>At a glance</h4>
+                    <ul>
+                        <li>Platform</li>
+                        <li>Library</li>
+                        <li>Trainer</li>
+                        <li>Downlaod</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+        <hr>
+        <section>
+            <p id="copyright">All Rights Reserved @Body-Fitness &copy; 2024-2025 | Tanvir Ahammad, Developer.</p>
+        </section>
+    </footer>
+
+</body>
+</html>
